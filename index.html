@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostinger</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Font para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- Nav con hamburguesa  -->
+<header>
+    <nav class="navbar" role="navigation" aria-label="Principal">
+        <div class="nav-left">
+            <a href="" class="nav-logo-link" aria-label="Inicio">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Hostinger_logo_black.svg" alt="Hostinger Logo" class="nav-logo" />
+            </a>
+
+            <!-- Control responsive -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-hidden="true" />
+            <label for="nav-toggle" class="nav-toggle-btn" aria-label="Abrir o cerrar menú" aria-controls="nav-menu" aria-expanded="false">
+                <span class="hamburger" aria-hidden="true"></span>
+            </label>
+
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li>
+                    <a href="#precios">Precios</a>
+                </li>
+                <li class="has-dropdown">
+                    <a href="">Servicios <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown" aria-label="submenu Servicios">
+                        <li><a href="">Hosting Web</a></li>
+                        <li><a href="">Hosting WordPress</a></li>
+                        <li><a href="">VPS</a></li>
+                        <li><a href="">Correo empresarial</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-dropdown">
+                    <a href="">Explorar <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown" aria-label="submenu Explorar">
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Tutoriales</a></li>
+                        <li><a href="">Reseñas</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-dropdown">
+                    <a href="=">Apoyo <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown" aria-label="submenu Apoyo">
+                        <li><a href="">Centro de ayuda</a></li>
+                        <li><a href="">Estado del sistema</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="">Horizontes</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-lang">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Español" class="flag-icon" />
+                <span>Español</span>
+            </div>
+            <a href="=" class="nav-account">Mi cuenta</a>
+        </div>
+    </nav>
+</header>
+
+
+<main id="contenido" tabindex="-1">
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Todo lo que necesitás para crear una web</h1>
+            <p><strong>Hasta un 
+                <span class="header__overline-discount">72%</span>
+                off en hosting + Creador de webs con IA</strong></p>
+            <ul>
+                <li>Dominio gratis</li>
+                <li>Migración gratis</li>
+                <li>Atención al cliente 24/7</li>
+            </ul>
+            <div class="price">AR$ 3.899/mes</div>
+            <p class="gratis">+ 3 meses gratis</p>
+            <a href="#precios" class="btn">Empezar ya</a>
+        </div>
+        <div class="image-side">
+            <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/5a9a19e7-fef4-4cf6-65b1-01001ef95f00/public" alt="Ejemplo visual" style="width: 100%; border-radius: 10px;">
+        </div>
+    </section>
+
+    <!-- Planes -->
+    <section class="plans" id="precios">
+        <h2>Elegí el plan ideal para vos</h2>
+        <p class="subtitle">Elegí el plan ideal para vos y publicá en minutos con IA</p>
+
+    <div class="plan-cards">
+        <!-- Planes Single -->
+        <div class="card">
+            <div class="badge">78% OFF</div>
+            <h3>Single</h3>
+            <p class="desc">Solución ideal para principiantes</p>
+            <div class="price">AR$ 1.999<span>/mes</span></div>
+            <p class="gratis">+3 meses GRATIS</p>
+            <a href="" class="btn-outline">Elegir plan</a>
+            <p class="detalle">Obtené 48 meses por AR$ 95.952</p>
+        <ul>
+            <li>Crea hasta <strong>1</strong> sitio web</li>
+            <li><strong>10 GB</strong> de almacenamiento</li>
+            <li>1 buzón de correo gratis 1 año</li>
+        </ul>
+        </div>
+
+        <!-- Plan Premium -->
+        <div class="card destacado">
+            <div class="top-label">MÁS VENDIDO</div>
+            <div class="badge">72% OFF</div>
+            <h3>Premium</h3>
+            <p class="desc">Todo lo que necesitás para crear tu sitio web</p>
+            <div class="price">AR$ 3.899<span>/mes</span></div>
+            <p class="gratis">+3 meses GRATIS</p>
+            <a href="" class="btn">Elegir plan</a>
+            <p class="detalle">Obtené 48 meses por AR$ 187.152</p>
+            <ul>
+                <li>Crea hasta <strong>25</strong> sitios web</li>
+                <li><strong>25 GB</strong> de almacenamiento</li>
+                <li>2 buzones de correo gratis 1 año</li>
+            </ul>
+        </div>
+
+        <!-- Plan Business -->
+        <div class="card">
+            <div class="badge">72% OFF</div>
+            <h3>Business</h3>
+            <p class="desc">Más potencia y funciones mejoradas</p>
+            <div class="price">AR$ 5.399<span>/mes</span></div>
+            <p class="gratis">+3 meses GRATIS</p>
+            <a href="" class="btn-outline">Elegir plan</a>
+            <p class="detalle">Obtené 48 meses por AR$ 259.152</p>
+            <ul>
+                <li>Crea hasta <strong>50</strong> sitios web</li>
+                <li><strong>50 GB</strong> almacenamiento NVMe</li>
+                <li>5 buzones de correo gratis 1 año</li>
+            </ul>
+        </div>
+
+        <!-- Plan Cloud -->
+        <div class="card">
+            <div class="badge">71% OFF</div>
+            <h3>Cloud Startup</h3>
+            <p class="desc">Rendimiento optimizado y recursos potentes</p>
+            <div class="price">AR$ 11.899<span>/mes</span></div>
+            <p class="gratis">+3 meses GRATIS</p>
+            <a href="" class="btn-outline">Elegir plan</a>
+            <p class="detalle">Obtené 48 meses por AR$ 571.152</p>
+        <ul>
+            <li>Crea hasta <strong>100</strong> sitios web</li>
+            <li><strong>100 GB</strong> almacenamiento NVMe</li>
+            <li>10 buzones de correo gratis 1 año</li>
+        </ul>
+        </div>
+    </div>
+    </section>
+
+    <!-- Pie corto -->
+    <footer>
+        Recomendado por WordPress.org
+    </footer>
+
+    <!-- Migración -->
+    <section class="migration-section">
+        <div class="migration-container">
+            <h2>Migración de sitios web. Simplificada.</h2>
+            <p>
+                ¿Actualmente alojas tu sitio web en otro lugar? Únete a los más de 4 millones de propietarios de sitios web 
+                que disfrutan de un alojamiento web rápido, seguro y confiable en Hostinger. Nuestro equipo de expertos se encargará 
+                de todo mientras tu sitio web se mantiene en funcionamiento. Así es: sin tiempo de inactividad. Sin pérdida de datos. 
+                Sin problemas.
+            </p>
+            <div class="migration-cards">
+                <div class="migration-card">
+                    <i class="fas fa-list-ul"></i>
+                    <h3>3 sencillos pasos</h3>
+                    <p>
+                        Simplemente elija su plan, complete el formulario de solicitud de migración, envíelo y luego siéntese y relájese.
+                    </p>
+                </div>
+                <div class="migration-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Rápido y seguro</h3>
+                    <p>
+                        El 95 % de los sitios web se migran en menos de 20 minutos. El 5 % restante lo hace más rápido que el promedio 
+                        del sector. Además, su sitio web permanece activo todo el tiempo.
+                    </p>
+                </div>
+                <div class="migration-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Gratis</h3>
+                    <p>
+                        Ya sea que tenga 1 sitio web para migrar o 100, la migración es gratuita con todos nuestros planes.
+                    </p>
+                </div>
+            </div>
+            <a href="" class="migration-btn">Empezar</a>
+        </div>
+    </section>
+
+    <!-- Reseñas -->
+    <section class="reviews-section">
+        <div class="reviews-container">
+            <h2>Más de 4 millones de propietarios de sitios web en todo el mundo confían en nosotros</h2>
+            <div class="reviews-cards">
+                <div class="review-card">
+                    <img src="./Imagenes/50x50.jpg" alt="Foto usuario" class="review-avatar">
+                    <h3>Lopez Joaco</h3>
+                    <span class="review-role">Ingeniero Informatico</span>
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>Desde que usamos Hostinger, todo ha sido increíble. No hemos tenido ningún problema y, si alguna vez tenemos alguna pregunta, su servicio al cliente es increíble.</p>
+                    <a href="" class="review-link">Leer más <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="review-card">
+                    <img src="./Imagenes/50x50M.jpg" alt="Foto usuario" class="review-avatar">
+                    <h3>Rojas Milagros</h3>
+                    <span class="review-role">Directora Marketing CMO</span>
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>El equipo de Éxito del Cliente de Hostinger hace todo lo posible para comprender mi problema.</p>
+                    <a href="" class="review-link">Leer más <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="review-card">
+                    <img src="./Imagenes/50x50x2.jpg" alt="Foto usuario" class="review-avatar">
+                    <h3>Lencina Angel</h3>
+                    <span class="review-role">Emprendedor</span>
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>Estaba buscando una empresa de hosting que fuera muy intuitiva para principiantes y muy bien configurada para un buen rendimiento.</p>
+                    <a href="" class="review-link">Leer más <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <a href="" class="reviews-btn">Leer más historias</a>
+        </div>
+    </section>
+
+    <!-- Footer extendido -->
+    <section class="footer-extended">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h4>HOSPEDAJE</h4>
+                <ul>
+                    <li><a href="">Alojamiento web</a></li>
+                    <li><a href="">Alojamiento para WordPress</a></li>
+                    <li><a href="">Alojamiento VPS</a></li>
+                    <li><a href="">Alojamiento VPS n8n</a></li>
+                    <li><a href="">Correo electrónico comercial</a></li>
+                    <li><a href="">Alojamiento en la nube</a></li>
+                    <li><a href="">Alojamiento para WooCommerce</a></li>
+                    <li><a href="">Hosting para agencias</a></li>
+                    <li><a href="">Alojamiento de Minecraft</a></li>
+                    <li><a href="">Alojamiento de servidores de juegos</a></li>
+                    <li><a href="">Espacio de trabajo de Google</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>DOMINIO</h4>
+                <ul>
+                    <li><a href="">Búsqueda de nombre de dominio</a></li>
+                    <li><a href="">Nombres de dominio baratos</a></li>
+                    <li><a href="">Dominio gratuito</a></li>
+                    <li><a href="">Búsqueda WHOIS</a></li>
+                    <li><a href="">Certificado SSL gratuito</a></li>
+                    <li><a href="">Transferencia de dominio</a></li>
+                    <li><a href="">Extensiones de dominio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>HERRAMIENTAS</h4>
+                <ul>
+                    <li><a href="">Horizontes de Hostinger</a></li>
+                    <li><a href="">Creador de sitios web</a></li>
+                    <li><a href="">Creador de sitios web con IA</a></li>
+                    <li><a href="">Creador de sitios web de comercio electrónico</a></li>
+                    <li><a href="">Generador de nombres comerciales</a></li>
+                    <li><a href="">Generador de logotipos de IA</a></li>
+                    <li><a href="">Migrar a Hostinger</a></li>
+                    <li><a href="">API de Hostinger</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>INFORMACIÓN</h4>
+                <ul>
+                    <li><a href="">Precios</a></li>
+                    <li><a href="">Reseñas</a></li>
+                    <li><a href="">Programa de afiliados</a></li>
+                    <li><a href="">Programa de referencias</a></li>
+                    <li><a href="">Hoja de ruta</a></li>
+                    <li><a href="">Muro de la fama</a></li>
+                    <li><a href="">Mapa del sitio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>COMPAÑÍA</h4>
+                <ul>
+                    <li><a href="">Acerca de Hostinger</a></li>
+                    <li><a href="">Nuestra tecnología</a></li>
+                    <li><a href="">Sala de prensa</a></li>
+                    <li><a href="">Carrera</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Descuento para estudiantes</a></li>
+                    <li><a href="">Sostenibilidad</a></li>
+                    <li><a href="">Principios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>APOYO</h4>
+                <ul>
+                    <li><a href="">Tutoriales</a></li>
+                    <li><a href="">Base de conocimientos</a></li>
+                    <li><a href="">Academia Hostinger</a></li>
+                    <li><a href="">Contáctanos</a></li>
+                    <li><a href="">Denunciar abuso</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Hostinger_logo_black.svg" alt="Hostinger Logo" class="footer-logo">
+            <div class="payment-icons">
+                <!-- medios de pago -->
+                <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/eea0da37-b667-4d93-3e73-ce63b3b81400/public" alt="Visa">
+                <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/8c07a3ee-6954-4b35-f511-ae9011dbfd00/public" alt="Mastercard">
+                <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/88baade4-7e9d-4a22-1353-63b45203a700/public" alt="Amex">
+                <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/eaeabe9a-6e9d-4f74-4411-be32b5a81700/public" alt="Diner club">
+                <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/1c653909-0d6b-4f97-f1ee-00d2d6581000/public" alt="Naranja">
+                <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/300cf612-fc30-41c8-da08-1438879d5d00/public" alt="Cordial">
+                <img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/9c05bbf9-f455-41df-4b1e-070198de2500/public" alt="Cordobesa">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2004–2025 Hostinger – Lanza, crece y triunfa en línea, con el respaldo de una IA que pone el poder en tus manos.</p>
+            <div class="social-icons">
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="">Política de privacidad</a>
+                <a href="">Política de reembolso</a>
+                <a href="">Condiciones de servicio</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+</body>
+</html>
